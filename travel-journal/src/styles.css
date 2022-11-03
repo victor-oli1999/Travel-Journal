@@ -1,0 +1,18 @@
+body {
+    background: #333;
+    margin: 15px;
+}
+#root {
+    width: 550px;
+    margin: auto;
+}
+
+.navbar {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img {
+    margin-right: 10px;
+}
