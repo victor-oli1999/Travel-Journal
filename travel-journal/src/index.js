@@ -18,7 +18,7 @@ function Index() {
         />
     })
     return (
-        <div>
+        <div className="corpo">
             <Nav />
             {cards}
         </div>

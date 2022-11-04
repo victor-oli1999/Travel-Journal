@@ -1,18 +1,98 @@
 body {
-    background: #333;
+    background: #333333;
+    font-family: "Inter";
     margin: 15px;
+}
+h1 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+h2 {
+    margin: 5px 0 0 0;
+}
+h3 {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0 15px 0 5px;
+}
+p {
+    font-size: 13px;
 }
 #root {
     width: 550px;
     margin: auto;
 }
-
+.corpo {
+    background: #fff;
+    padding-bottom: 20px;
+}
 .navbar {
     background: #F55A5A;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
+    padding: 6px 0;
 }
 .navbar img {
     margin-right: 10px;
+}
+/* CARDS */
+.card {
+    border: #918E9B;
+    padding: 5px 35px;
+}
+.Cards {
+    display: flex;
+    align-items: flex-start;
+}
+.image {
+    margin-right: 20px;
+}
+.place {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.icon {
+    color: #F55A5A;
+    font-size: 12px;
+}
+.linkMaps {
+    color: #918E9B;
+    font-size: 13px;
+}
+.dates {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.description {
+    margin-top: 6px;
+}
+hr {
+    border-top-color: #F5F5F5;
+    border-bottom: none;
+    margin: 15px 0;
+    opacity: 0.2;
+}
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 15px 15px 0 0;
+    }
+    .corpo {
+        border-radius: 25px 25px 15px 15px;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+    .navbar {
+        border-radius: 0;
+    }
+    .corpo {
+        border-radius: 0;
+    }
 }
